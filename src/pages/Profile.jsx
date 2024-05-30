@@ -99,14 +99,18 @@ export default function Profile() {
           type="file"
           ref={fileRef}
           hidden
+          // id="img"
           accept="image/*"
         />
+
+        {/* <label htmlFor="img"> </label>*/}
         <img
           onClick={() => fileRef.current.click()}
           className="rounded-full h-24 w-24 objext-cover cursor-pointer self-center mt-2"
           src={formData.avatar || currentUser.avatar}
           alt="profile"
         />
+
         <p className="text-sm self-center">
           {fileUploadError ? (
             <span className="text-red-700">
