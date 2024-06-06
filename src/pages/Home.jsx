@@ -54,7 +54,7 @@ export default function Home() {
           destination effortlessly
         </h1>
         <div className="text-gray-400 text-xs sm:text-sm">
-          Ironhack-Estate Realty is your ultimate destination for finding your
+          MieteMich-Estate Realty is your ultimate destination for finding your
           next dream home.
           <br />
           We offer a diverse selection of properties for rent or sale to suit
