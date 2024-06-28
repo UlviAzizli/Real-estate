@@ -10,6 +10,7 @@ export default defineConfig({
       "/api": {
         target: import.meta.env.VITE_BACKEND_URL || "http://localhost:5005",
         secure: false,
+        changeOrigin: true,
       },
     },
   },
