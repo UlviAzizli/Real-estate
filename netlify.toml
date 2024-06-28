@@ -2,6 +2,10 @@
   command = "npm run build"
   publish = "dist"
 
+[context.production.environment]
+  VITE_FIREBASE_API_KEY = "AIzaSyCdGECfXNZqUe2fTmo8dptYm1g4JxVG_Rc"
+  VITE_BACKEND_URL = "https://real-estate-server-nu.vercel.app"
+
 [[redirects]]
   from = "/*"
   to = "/"
