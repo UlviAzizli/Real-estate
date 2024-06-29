@@ -4,7 +4,7 @@
 
 [context.production.environment]
   VITE_FIREBASE_API_KEY = "AIzaSyCdGECfXNZqUe2fTmo8dptYm1g4JxVG_Rc"
-  VITE_BACKEND_URL = "https://real-estate-server-nu.vercel.app"
+  VITE_BACKEND_URL = "https://mietmich.adaptable.app"
 
 [[redirects]]
   from = "/*"
